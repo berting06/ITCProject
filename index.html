@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="mystylesheet.css">
+    <title>ITC_Project - Fiel/IS4</title>
+</head>
+<body>
+    <audio autoplay loop>
+        <source src="electric.mp3" type="audio/mpeg"/>
+    </audio>
+    <!---->
+    <ul>
+      <li><a href="#hobbies">Hobbies</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#interests">Interests</a></li>
+      <li><a href="#links">Links</a></li>
+    </ul>
+    <!---->
+    
+      <div id="greeting">
+        <button class="welcome">
+          <span class="actual-text">Welcome</span>
+          <span aria-hidden="true" class="hover-text">Welcome</span>
+        </button>
+      </div>
+      <br><br><br><br><br><br>
+      <div class="loading">
+        <div class="loader">
+          <div class="loader_cube loader_cube--color"></div>
+          <div class="loader_cube loader_cube--glowing"></div>
+          </div>
+      </div>
+      <br><br><br><br><br><br><br><br><br><br>
+      <div id="greeting">
+        <button class="hobbies" id="hobbies">
+          <span class="actual-text">Hobbies</span>
+          <span aria-hidden="true" class="hover-text">Hobbies</span>
+        </button>
+      </div>
+      <br><br><br>
+<!--Hobbies container-->
+<div class="hobbies_container">
+  <div data-text="Piano/Music" style="--r:-15;" class="glass" id="music">
+    <svg viewBox="0 0 496 512" height="1em">
+    </svg>
+  </div>
+  <div data-text="Coding" style="--r:5;" class="glass" id="coding">
+    <svg viewBox="0 0 640 512" height="1em">
+    </svg>
+  </div>
+  <div data-text="Gaming" style="--r:25;" class="glass" id="gaming">
+    <svg viewBox="0 0 576 512" height="1em">
+    </svg>
+  </div>
+</div>
+
+<br><br><br><br><br><br><br><br><br><br>
+<!--Skills container-->
+      <div id="greeting">
+        <button class="skills" id="skills">
+          <span class="actual-text">Skills</span>
+          <span aria-hidden="true" class="hover-text">Skills</span>
+        </button>
+      </div>
+      
+      <div class="card-holder">
+        <div class="card">
+          <p class="card-title">Programming in Java</p>
+          <p class="small-desc">
+           I have basic to advance knowledge in most areas of Java Programming. I have honed this skill over the passed few years through failure, practice, and experiences.
+           Even though I am equipped with this skill, I know that there are more to improve in this field.
+          </p>
+          <div class="go-corner">
+            <div class="go-arrow">→</div>
+          </div>
+        </div>
+        <div class="card">
+          <p class="card-title">Database Management using MySql(Java Connection DriverManager)</p>
+          <p class="small-desc">
+            Compare to Java, I don't have advance skills in Database Management. But I have the basic knowledge and understanding of SQL Queries.
+          </p>
+          <div class="go-corner">
+            <div class="go-arrow">→</div>
+          </div>
+        </div>
+        <div class="card">
+          <p class="card-title">Microsoft Office Applications</p>
+          <p class="small-desc">
+            Microsoft Office is the most fast-paced computer software in this generation. This is the basic stepping-stones of skills in the world of technology.
+            This software skill even included in some school curriculum.
+          </p>
+          <div class="go-corner">
+            <div class="go-arrow">→</div>
+          </div>
+        </div>
+      </div>
+      <br><br><br><br><br><br><br><br><br><br>
+      <!--Interests container-->
+      <div id="greeting">
+        <button class="interests" id="interests">
+          <span class="actual-text">Interests</span>
+          <span aria-hidden="true" class="hover-text">Interests</span>
+        </button>
+      </div>
+      <br><br><br>
+      <div class="interest_card_holder">
+        <div class="interest_card">
+          <h2> Learning </h2>
+          </div>
+        <div class="interest_card">
+          <h2> Music </h2>
+        </div>
+        <div class="interest_card">
+          <h2> Movies </h2>
+        </div>
+        <div class="interest_card">
+          <h2>Politics</h2>
+        </div>
+        <div class="interest_card">
+          <h2> Astronomy </h2>
+        </div>
+      </div>
+      <br><br><br><br><br><br>
+      <div id="greeting">
+        <button class="welcome" id="links">
+          <span class="actual-text">Links</span>
+          <span aria-hidden="true" class="hover-text">Links</span>
+        </button>
+      </div>
+      <br>
+      <div class="facebook">
+        <button onclick="window.location.href='https://www.facebook.com/profile.php?id=100088168330664';" class="fb">
+          Facebook
+        </button>
+      </div>
+      <br>
+      <div class="github">
+        <button onclick="window.location.href='https://github.com/berting06';" class="git">
+          &nbsp;&nbsp;GitHub&nbsp;
+        </button>
+      </div>
+      <br>
+      <div class="linkedin">
+        <button onclick="window.location.href='https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.linkedin.com%2Fin%2Falbert-fiel-35a44732b%3Futm_source%3Dshare%26utm_campaign%3Dshare_via%26utm_content%3Dprofile%26utm_medium%3Dandroid_app%26fbclid%3DIwZXh0bgNhZW0CMTAAAR1wZnEp5q07jR1Y9G-EDUSSIXCdVu98bFJopZt_HAeC-SK4C0TaiUXauXQ_aem_-fOF2adMg5492Oaeemngkw&h=AT3Inx3DcGSGyQ-5INmdjPU_S_Aegu48fkZTBG6Cqiex6gdK0ev5NjTXtFuN2vnwt4qqfjZVzZUxFTexM8Ji6FLRy2lYVxQ8ut9pD0Ya3fLgM3QMoQmLbAR0uOLNSkkMDbiaHg';" class="linked">
+          &nbsp;Linkedin
+        </button>
+      </div>
+      <br><br><br><br><br><br><br><br><br>
+    <div class="footer">
+        <p>&copy;2024 Albert Fiel (Albert Fiel Martinez)<br>Audio and Images used here belong to its rightful owner</p>
+    </div>
+    <br><br>
+    <br><br>
+<!---->
+    <div class="contain-loader2">
+      <div class="loader2">
+        <div class="box box0">
+          <div></div>
+        </div>
+        <div class="box box1">
+          <div></div>
+        </div>
+        <div class="box box2">
+          <div></div>
+        </div>
+        <div class="box box3">
+          <div></div>
+        </div>
+        <div class="box box4">
+          <div></div>
+        </div>
+        <div class="box box5">
+          <div></div>
+        </div>
+        <div class="box box6">
+          <div></div>
+        </div>
+        <div class="box box7">
+          <div></div>
+        </div>
+        <div class="ground">
+          <div></div>
+        </div>
+      </div>
+    </div>
+<!---->
+    <br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br>
+  
+</body>
+</html>
